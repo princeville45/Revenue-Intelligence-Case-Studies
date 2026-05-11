@@ -8,22 +8,22 @@ The depot faced high holding costs and frequent stockouts of high-demand items. 
 
 ## Data Collection
 We tracked 12 weeks of sales data, including:
-- SKU-level sales volume
-- Unit margins
-- Lead times from suppliers
-- Storage capacity constraints
+. SKU-level sales volume
+. Unit margins
+. Lead times from suppliers
+. Storage capacity constraints
 
 ## Statistical Approach
-1. **ABC Analysis**: Classified products based on revenue contribution.
-   - Class A: Top 20% products generating 80% of revenue.
-   - Class B: Next 30% products generating 15% of revenue.
-   - Class C: Bottom 50% products generating 5% of revenue.
-2. **Velocity Scoring**: Assigned a daily sales velocity score to each SKU to optimize reorder points.
+1. ABC Analysis: Classified products based on revenue contribution.
+   . Class A: Top 20% products generating 80% of revenue.
+   . Class B: Next 30% products generating 15% of revenue.
+   . Class C: Bottom 50% products generating 5% of revenue.
+2. Velocity Scoring: Assigned a daily sales velocity score to each SKU to optimize reorder points.
 
 ## Results
-- **Inventory Turnover**: Increased from 4.2x to 5.6x annually.
-- **Revenue**: Grew by 18% due to reduced stockouts of Class A items.
-- **Operating Cash Flow**: Improved by 22% as capital was freed from Class C items.
+. Inventory Turnover: Increased from 4.2x to 5.6x annually.
+. Revenue: Grew by 18% due to reduced stockouts of Class A items.
+. Operating Cash Flow: Improved by 22% as capital was freed from Class C items.
 
 ## Lessons Learned
 Data-driven inventory logic is superior to intuition in high-volume wholesale operations. Implementing a simple ABC-Velocity framework can yield immediate financial results without complex software.
